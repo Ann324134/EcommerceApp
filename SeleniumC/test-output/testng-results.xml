@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T18:49:57 IST" name="Default suite" finished-at="2023-01-04T18:50:27 IST" duration-ms="29346">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T18:49:57 IST" name="Default test" finished-at="2023-01-04T18:50:27 IST" duration-ms="29346">
+      <class name="newSeleniumConcepts.VerifyErrorMessage">
+        <test-method signature="errorMessage()[pri:0, instance:newSeleniumConcepts.VerifyErrorMessage@305ffe9e]" started-at="2023-01-04T18:49:58 IST" name="errorMessage" finished-at="2023-01-04T18:50:27 IST" duration-ms="28933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+      </class> <!-- newSeleniumConcepts.VerifyErrorMessage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
