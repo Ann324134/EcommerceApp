@@ -10,26 +10,29 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class CharacterSequence {
+public class CharacterSequence2 {
 	public WebDriver driver;
 	@Test
 	public void charseq() {
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
-		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com");
 		WebElement email= driver.findElement(By.xpath("//input[@placeholder='Email address or phone number']"));
 		//email.sendKeys("Yusuf");
-		
-		  StringBuffer sb= new StringBuffer() 
-		  .append("Yu") 
-		  .append("suf") 
-		  .append(" ")
-		  .append("Aziz");
-		   email.sendKeys(sb);
-		 
-		
+		/*
+		 * StringBuffer sb= new StringBuffer() .append("Yu") .append("suf") .append(" ")
+		 * .append("Aziz"); email.sendKeys(sb);
+		 */
+		StringBuilder sb= new StringBuilder()
+				.append("Yu")
+				.append("suf")
+				.append(" ")
+				.append("Aziz");
+				email.sendKeys(sb);
+				
+				email.sendKeys("dibsjnd");
 		
 		
 		  

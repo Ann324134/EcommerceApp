@@ -14,6 +14,7 @@ public class RelativeLocatorsDemo {
 	
 	@Test
 	public void relativeLocators() {
+		
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
