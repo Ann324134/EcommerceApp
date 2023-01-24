@@ -18,7 +18,7 @@ public class TC_001 {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://www.facebook.com");
+		//driver.get("https://www.facebook.com");
 		WebElement email= driver.findElement(By.xpath("//input[@placeholder='Email address or phone number']"));
 		//email.sendKeys("Yusuf");
 		

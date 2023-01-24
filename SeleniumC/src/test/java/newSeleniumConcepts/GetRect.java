@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GetRect {
+public class GetRect { 
 	public WebDriver driver;
 	@Test
 	public void getRect() {
